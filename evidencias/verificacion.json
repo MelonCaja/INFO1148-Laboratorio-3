@@ -1,0 +1,62 @@
+{
+  "producciones_por_archivo": 22,
+  "instrucciones_probadas": 4362,
+  "aceptadas": 25,
+  "rechazadas": 4337,
+  "discrepancias": 0,
+  "programas_de_dos_instrucciones": 625,
+  "programa_referencia_aceptado": true,
+  "tokens_programa_referencia": 91,
+  "pruebas_nativas_jflap": 12,
+  "casos": [
+    {
+      "caso": 1,
+      "fuente": "x = 10 #",
+      "tokens": "i=d#",
+      "aceptada": true
+    },
+    {
+      "caso": 2,
+      "fuente": "z = x + y #",
+      "tokens": "i=i+i#",
+      "aceptada": true
+    },
+    {
+      "caso": 3,
+      "fuente": "salida z #",
+      "tokens": "si#",
+      "aceptada": true
+    },
+    {
+      "caso": 4,
+      "fuente": "x 10 #",
+      "tokens": "id#",
+      "aceptada": false
+    },
+    {
+      "caso": 5,
+      "fuente": "z = + x y #",
+      "tokens": "i=+ii#",
+      "aceptada": false
+    },
+    {
+      "caso": 6,
+      "fuente": "salida #",
+      "tokens": "s#",
+      "aceptada": false
+    },
+    {
+      "caso": 7,
+      "fuente": "x = 20",
+      "tokens": "i=d",
+      "aceptada": false
+    },
+    {
+      "caso": 8,
+      "fuente": "Begin Programa prueba x = 5 # salida x # End",
+      "tokens": "bpii=d#si#f",
+      "aceptada": true
+    }
+  ],
+  "casos_adicionales": 10
+}

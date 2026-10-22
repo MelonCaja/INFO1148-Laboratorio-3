@@ -1,0 +1,13 @@
+numero,inicio,entrada,esperado,obtenido
+1,instruccion_aux,i=d#,true,true
+2,instruccion_aux,i=i+i#,true,true
+3,instruccion_aux,si#,true,true
+4,instruccion_aux,id#,false,false
+5,instruccion_aux,i=+ii#,false,false
+6,instruccion_aux,s#,false,false
+7,instruccion_aux,i=d,false,false
+8,programa,bpii=d#si#f,true,true
+9,instruccion_aux,ni#,true,true
+10,instruccion_aux,ri#,true,true
+11,instruccion_aux,n#,false,false
+12,instruccion_aux,rii#,false,false

@@ -1,0 +1,8 @@
+S
+bpiLf
+bpiIf
+bpiAf
+bpiCf
+bpii=E#f
+bpii=VOV#f
+bpii=i+i#f
